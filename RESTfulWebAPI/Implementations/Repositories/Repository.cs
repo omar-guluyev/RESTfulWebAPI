@@ -18,7 +18,7 @@ namespace RESTfulWebAPI.Implementations.Repositories
 
         public async Task<bool> AddAsync(T data)
         {
-            var entity = await Table.AddAsync(data);
+            EntityEntry entity = await Table.AddAsync(data);
             return entity.State == EntityState.Added;
         }
 

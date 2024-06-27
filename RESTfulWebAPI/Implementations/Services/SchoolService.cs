@@ -12,6 +12,7 @@ namespace RESTfulWebAPI.Implementations.Services
     {
         private readonly AppDBContext context;
         private readonly IMapper mapper;
+        
         public SchoolService(AppDBContext context, IMapper mapper)
         {
             this.context = context;
