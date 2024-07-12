@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/RESTfulWebAPI/appsettings.json
+/RESTfulWebAPI/appsettings.Development.json
+/RESTfulWebAPI/Properties/launchSettings.json
